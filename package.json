@@ -1,6 +1,6 @@
 {
   "name": "https-redirect",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "https-redirect",
   "bin": {
     "https-redirect": "bin/cmd.js"
