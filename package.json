@@ -1,0 +1,28 @@
+{
+  "name": "https-redirect",
+  "version": "0.0.0",
+  "description": "https-redirect",
+  "bin": {
+    "https-redirect": "bin/cmd.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "optimist": "~0.6.0",
+    "bunyan": "~0.22.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tellnes/https-redirect.git"
+  },
+  "keywords": [
+    "https",
+    "redirect"
+  ],
+  "author": "Christian Tellnes <christian@tellnes.no> (http://christian.tellnes.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tellnes/https-redirect/issues"
+  }
+}
