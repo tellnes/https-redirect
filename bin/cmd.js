@@ -22,8 +22,9 @@ var port = argv.port || argv.p
   , host = argv.host
 
 var server = hr(
-    { permament: argv.permament || argv['1']
-    }
-  )
+      { permament: argv.permament || argv['1']
+      , silent: argv.silent || argv.s
+      }
+    )
 
 server.listen(port, host)

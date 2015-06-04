@@ -10,5 +10,6 @@ usage:
         --host        Host to listen on. Defaults to 0.0.0.0
     -1  --permament   Use HTTP the 301 Moved Permanently status code
     -2  --found       Use the HTTP 302 Found status code (default)
+    -s  --silent      Only log fatal errors.
     -v  --version     Show https-redirect version number
     -h  --help        Shows this help text

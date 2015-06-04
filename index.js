@@ -10,6 +10,7 @@ module.exports = function (options) {
   var logger = bunyan.createLogger(
           { name: options.name || 'https-redirect'
           , serializers: bunyan.stdSerializers
+          , level: options.silent ? bunyan.FATAL : bunyan.INFO
           }
         )
 
