@@ -24,5 +24,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tellnes/https-redirect/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
